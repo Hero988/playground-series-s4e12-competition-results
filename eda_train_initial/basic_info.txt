@@ -1,0 +1,40 @@
+Basic Information:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1200000 entries, 0 to 1199999
+Data columns (total 21 columns):
+ #   Column                Non-Null Count    Dtype  
+---  ------                --------------    -----  
+ 0   id                    1200000 non-null  int64  
+ 1   Age                   1181295 non-null  float64
+ 2   Gender                1200000 non-null  object 
+ 3   Annual Income         1155051 non-null  float64
+ 4   Marital Status        1181471 non-null  object 
+ 5   Number of Dependents  1090328 non-null  float64
+ 6   Education Level       1200000 non-null  object 
+ 7   Occupation            841925 non-null   object 
+ 8   Health Score          1125924 non-null  float64
+ 9   Location              1200000 non-null  object 
+ 10  Policy Type           1200000 non-null  object 
+ 11  Previous Claims       835971 non-null   float64
+ 12  Vehicle Age           1199994 non-null  float64
+ 13  Credit Score          1062118 non-null  float64
+ 14  Insurance Duration    1199999 non-null  float64
+ 15  Policy Start Date     1200000 non-null  object 
+ 16  Customer Feedback     1122176 non-null  object 
+ 17  Smoking Status        1200000 non-null  object 
+ 18  Exercise Frequency    1200000 non-null  object 
+ 19  Property Type         1200000 non-null  object 
+ 20  Premium Amount        1200000 non-null  float64
+dtypes: float64(9), int64(1), object(11)
+memory usage: 192.3+ MB
+
+
+First 5 rows:
+   id   Age  Gender  Annual Income Marital Status  Number of Dependents Education Level     Occupation  Health Score  Location    Policy Type  Previous Claims  Vehicle Age  Credit Score  Insurance Duration           Policy Start Date Customer Feedback Smoking Status Exercise Frequency Property Type  Premium Amount
+0   0  19.0  Female        10049.0        Married                   1.0      Bachelor's  Self-Employed     22.598761     Urban        Premium              2.0         17.0         372.0                 5.0  2023-12-23 15:21:39.134960              Poor             No             Weekly         House          2869.0
+1   1  39.0  Female        31678.0       Divorced                   3.0        Master's            NaN     15.569731     Rural  Comprehensive              1.0         12.0         694.0                 2.0  2023-06-12 15:21:39.111551           Average            Yes            Monthly         House          1483.0
+2   2  23.0    Male        25602.0       Divorced                   3.0     High School  Self-Employed     47.177549  Suburban        Premium              1.0         14.0           NaN                 3.0  2023-09-30 15:21:39.221386              Good            Yes             Weekly         House           567.0
+3   3  21.0    Male       141855.0        Married                   2.0      Bachelor's            NaN     10.938144     Rural          Basic              1.0          0.0         367.0                 1.0  2024-06-12 15:21:39.226954              Poor            Yes              Daily     Apartment           765.0
+4   4  21.0    Male        39651.0         Single                   1.0      Bachelor's  Self-Employed     20.376094     Rural        Premium              0.0          8.0         598.0                 4.0  2021-12-01 15:21:39.252145              Poor            Yes             Weekly         House          2022.0
+
+Dataset shape: (1200000, 21)
